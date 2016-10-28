@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+html, body, webview, header {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 32px;
+	box-sizing: border-box;
+	line-height: 32px;
+	font-weight: bold;
+	-webkit-app-region: drag;
+	background: #eeeeee;
+	padding-left: 1em;
+}
+
+webview {
+	height: 668px;
+}
